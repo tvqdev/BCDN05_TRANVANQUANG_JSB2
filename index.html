@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <!--Bai 1-->
+     <div class="container">
+          <div class="center">
+               <p>Bài 1:</p>
+               <form>
+                    <div class="text-field">
+                         <input type="number" id="usd" placeholder="số USD quy đổi" />
+                         <p class="text" id="sotiendoi"></p>
+                         <button type="button" class="button-effect" onclick="tinhUSD()">Tính</button>
+                    </div>
+               </form>
+          </div>
+          <br>
+
+          <div class="center">
+               <p>Bài 2:</p>
+
+               <form>
+                    <div class="text-field">
+                         <input type="number" id="dai" placeholder="nhập chiều dài" />
+                         <br>
+                         <input type="number" id="rong" placeholder="nhập chiều rộng" />
+
+                         <p class="text" id="txt"></p>
+                         <button type="button" class="button-effect" onclick="DT()">Diện tích</button>
+                         <button type="button" class="button-effect" onclick="CV()">Chu vi</button>
+
+                    </div>
+               </form>
+          </div>
+          <br>
+          <div class="center">
+               <p>Bài 3:</p>
+
+               <form>
+                    <div class="text-field">
+                         <input type="number" id="num1" placeholder="Nhập ký số" />
+                         <p class="text" id="txtks"></p>
+                         <button type="button" class="button-effect" onclick="ks()">Tính</button>
+                    </div>
+
+
+               </form>
+          </div>
+     </div>
+
+
+
+
+
+     <script src="./js/main.js"></script>
+</body>
+
+</html>
