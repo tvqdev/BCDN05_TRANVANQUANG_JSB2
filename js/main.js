@@ -33,15 +33,15 @@ function tinhUSD() {
   * 
   * K1: Nhập vào 2 chiều dài và chiều rộng của hcn
   * input :
-  * long 
-  * withs
+  * dai 
+  * rong
   * 
   * 
   * K2
   * B1: Khai báo biến và gán giá trị
   * B2: Lập CT tính
-  * DT = long * with;
-  * CV = (long + with) * 2
+  * DT = dai * rong;
+  * CV = (dai + rong) * 2
   * 
   * 
   * K3
@@ -66,11 +66,11 @@ function CV() {
 }
 
 /**
-  * Bài 3 : Tính tổng 2 ký sôs
+  * Bài 3 : Tính tổng 2 ký số
   * 
-  * K1 : nhập vào một số có 2 chử số : 12
+  * K1 : nhập vào một số có 2 chử số :
   * input 
-  * num = 12
+  * num
   * 
   * K2
   * ks1 = num % 10
